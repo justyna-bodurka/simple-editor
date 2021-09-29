@@ -6,8 +6,44 @@
 body {
   background: $wtf;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   min-height: 100vh;
+  display:flex;
+  justify-content: flex-end;
+  margin:64px;
 }
+
+.button-left{
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+background: yellow;
+
+
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.button-right{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  
+
+  
+}
+.editor{
+  display:flex;
+  flex-direction: column;
+}
+.textarea{
+  
+  width: 544px;
+  height: 328px;
+  
+  
+  }
